@@ -1,0 +1,49 @@
+Insert into tbl_chicago_crime_data([ID],[Case_Number],[date_reported], [block_address],[crime_report_code],[primary_type],[crime_description] 
+                        ,[location_description],[arrest] ,[domestic] ,[crime_spot] ,[District] ,[Ward],[Community_Area],[FBI_Code] ,[X_Coordinate] 
+						,[Y_Coordinate], [year_of_crime] , [Updated_On] , [lat], [lon], [crime_location]
+						) 
+                        
+                        values  ( 1930689, 'HH109118','01/05/2002 09:24:00 PM','007XX E 103 ST','820','THEFT','$500 AND UNDER','GAS STATION','True', Null, '512', '5', nan,'nan','06', nan , 'nan','2002','02/04/2016 06:33:39 AM','nan','nan','nan' )    , 
+
+Insert into tbl_chicago_crime_data([ID],[Case_Number],[date_reported], [block_address],[crime_report_code],[primary_type],[crime_description] 
+                        ,[location_description],[arrest] ,[domestic] ,[crime_spot] ,[District] ,[Ward],[Community_Area],[FBI_Code] ,[X_Coordinate] 
+						,[Y_Coordinate], [year_of_crime] , [Updated_On] , [lat], [lon], [crime_location]
+						) 
+                        
+                        values  ( 1930689, 'HH109118','01/05/2002 09:24:00 PM','007XX E 103 ST','820','THEFT','$500 AND UNDER','GAS STATION','True', Null, '512', '5', nan,'nan','06', nan , 'nan','2002','02/04/2016 06:33:39 AM','nan','nan','nan' )    , 
+Insert into tbl_chicago_crime_data([ID],[Case_Number],[date_reported], [block_address],[crime_report_code],[primary_type],[crime_description] 
+                        ,[location_description],[arrest] ,[domestic] ,[crime_spot] ,[District] ,[Ward],[Community_Area],[FBI_Code] ,[X_Coordinate] 
+						,[Y_Coordinate], [year_of_crime] , [Updated_On] , [lat], [lon], [crime_location]
+						) 
+                        
+                        values  ( 1930689, 'HH109118','01/05/2002 09:24:00 PM','007XX E 103 ST','820','THEFT','$500 AND UNDER','GAS STATION','True', Null, '512', '5', nan,'nan','06', nan , 'nan','2002','02/04/2016 06:33:39 AM','nan','nan','nan' )    , 
+Insert into tbl_chicago_crime_data([ID],[Case_Number],[date_reported], [block_address],[crime_report_code],[primary_type],[crime_description] 
+                        ,[location_description],[arrest] ,[domestic] ,[crime_spot] ,[District] ,[Ward],[Community_Area],[FBI_Code] ,[X_Coordinate] 
+						,[Y_Coordinate], [year_of_crime] , [Updated_On] , [lat], [lon], [crime_location]
+						) 
+                        
+                        values  ( 1930689, 'HH109118','01/05/2002 09:24:00 PM','007XX E 103 ST','820','THEFT','$500 AND UNDER','GAS STATION','True', Null, '512', '5', nan,'nan','06', nan , 'nan','2002','02/04/2016 06:33:39 AM','nan','nan','nan' )    , 
+Insert into tbl_chicago_crime_data([ID],[Case_Number],[date_reported], [block_address],[crime_report_code],[primary_type],[crime_description] 
+                        ,[location_description],[arrest] ,[domestic] ,[crime_spot] ,[District] ,[Ward],[Community_Area],[FBI_Code] ,[X_Coordinate] 
+						,[Y_Coordinate], [year_of_crime] , [Updated_On] , [lat], [lon], [crime_location]
+						) 
+                        
+                        values  ( 1930689, 'HH109118','01/05/2002 09:24:00 PM','007XX E 103 ST','820','THEFT','$500 AND UNDER','GAS STATION','True', Null, '512', '5', nan,'nan','06', nan , 'nan','2002','02/04/2016 06:33:39 AM','nan','nan','nan' )    , 
+Insert into tbl_chicago_crime_data([ID],[Case_Number],[date_reported], [block_address],[crime_report_code],[primary_type],[crime_description] 
+                        ,[location_description],[arrest] ,[domestic] ,[crime_spot] ,[District] ,[Ward],[Community_Area],[FBI_Code] ,[X_Coordinate] 
+						,[Y_Coordinate], [year_of_crime] , [Updated_On] , [lat], [lon], [crime_location]
+						) 
+                        
+                        values  ( 1930689, 'HH109118','01/05/2002 09:24:00 PM','007XX E 103 ST','820','THEFT','$500 AND UNDER','GAS STATION','True', Null, '512', '5', nan,'nan','06', nan , 'nan','2002','02/04/2016 06:33:39 AM','nan','nan','nan' )    , 
+Insert into tbl_chicago_crime_data([ID],[Case_Number],[date_reported], [block_address],[crime_report_code],[primary_type],[crime_description] 
+                        ,[location_description],[arrest] ,[domestic] ,[crime_spot] ,[District] ,[Ward],[Community_Area],[FBI_Code] ,[X_Coordinate] 
+						,[Y_Coordinate], [year_of_crime] , [Updated_On] , [lat], [lon], [crime_location]
+						) 
+                        
+                        values  ( 1930689, 'HH109118','01/05/2002 09:24:00 PM','007XX E 103 ST','820','THEFT','$500 AND UNDER','GAS STATION','True', Null, '512', '5', nan,'nan','06', nan , 'nan','2002','02/04/2016 06:33:39 AM','nan','nan','nan' )    , 
+Insert into tbl_chicago_crime_data([ID],[Case_Number],[date_reported], [block_address],[crime_report_code],[primary_type],[crime_description] 
+                        ,[location_description],[arrest] ,[domestic] ,[crime_spot] ,[District] ,[Ward],[Community_Area],[FBI_Code] ,[X_Coordinate] 
+						,[Y_Coordinate], [year_of_crime] , [Updated_On] , [lat], [lon], [crime_location]
+						) 
+                        
+                        values  ( 1930689, 'HH109118','01/05/2002 09:24:00 PM','007XX E 103 ST','820','THEFT','$500 AND UNDER','GAS STATION','True', Null, '512', '5', nan,'nan','06', nan , 'nan','2002','02/04/2016 06:33:39 AM','nan','nan','nan' )    , 
