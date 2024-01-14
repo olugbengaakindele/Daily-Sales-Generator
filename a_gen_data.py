@@ -141,6 +141,3 @@ def generateData():
             print("Newly created Folder")
             print(sendEmail(file_path, d_date))
 
-
-
-print(generateData())
