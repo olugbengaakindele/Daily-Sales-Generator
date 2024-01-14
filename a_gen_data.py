@@ -1,12 +1,14 @@
-import pandas as pd , os
+import pandas as pd , os 
+import random as rd
 from openpyxl import load_workbook as lw ,Workbook as wk
 from datetime import date as dt
 from datetime import datetime, date as dt
 from dateutil.relativedelta import relativedelta
-import random as rd
+from b_send_email import sendEmail
 
 
-no_days = 2
+
+no_days = 1
 result_folder = r"C:\Users\edata\project\01.salesdata\Report"
 
 def getDate(x):
@@ -131,12 +133,13 @@ def generateData():
         if os.path.isdir(fol_path):
             file_path = os.path.join(fol_path,f'{dateFolder}.xlsx')
             df.to_excel(file_path , index = False)
-            print("Newly Done")
+            print(sendEmail(file_path, d_date))
         else:
             os.makedirs(fol_path)
             file_path = os.path.join(fol_path,f'{dateFolder}.xlsx')
             df.to_excel(file_path , index = False)
-            print("done")
+            print("Newly created Folder")
+            print(sendEmail(file_path, d_date))
 
 
 
