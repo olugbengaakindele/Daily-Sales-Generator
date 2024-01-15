@@ -4,7 +4,7 @@ from openpyxl import load_workbook as lw ,Workbook as wk
 from datetime import date as dt
 from datetime import datetime, date as dt
 from dateutil.relativedelta import relativedelta
-from b_send_email import sendEmail
+from b_send_email import sendEmail, prepareFile
 
 
 
@@ -63,7 +63,7 @@ def getLookUpTables():
 def generateData():
     days = no_days
     lkup_tables = getLookUpTables()
-
+    text = f"Sheduled job ran at {dt.now()}"
     for day in range(1,days+1):
         transaction_id_list= []
         transaction_date_list =[]
@@ -134,10 +134,11 @@ def generateData():
             file_path = os.path.join(fol_path,f'{dateFolder}.xlsx')
             df.to_excel(file_path , index = False)
             print(sendEmail(file_path, d_date))
+            prepareFile(text)
         else:
             os.makedirs(fol_path)
             file_path = os.path.join(fol_path,f'{dateFolder}.xlsx')
             df.to_excel(file_path , index = False)
             print("Newly created Folder")
             print(sendEmail(file_path, d_date))
-
+            prepareFile(text)

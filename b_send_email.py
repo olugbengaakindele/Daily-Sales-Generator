@@ -11,7 +11,7 @@ def sendEmail(file_path,date):
     content = f""" 
     Hi Team,
 
-    Please see attached a copy a sales data for {date}. Let me know if you have any questions.
+    Please see attached a copy the sales data for {date}. Let me know if you have any questions.
 
     Thanks
 
@@ -19,8 +19,9 @@ def sendEmail(file_path,date):
     Edatapreneur Inc.
     Canada     
             """
-    
+
     for rec in os.environ['SALES_DATA_EMAIL_RECEPIENT'].split(","):
+        print(rec)
         password = os.environ['GMAILPASS']
         em = EmailMessage()
         em["From"] = sender
@@ -40,4 +41,17 @@ def sendEmail(file_path,date):
             status = "email sent"
             print("Email sent")
 
-        return status
+    return status
+
+# log text to show that it ran
+def prepareFile(text):
+    file_path = os.path.join(os.getcwd(),"logs.txt")
+    if os.path.exists(file_path):
+        file = open(file_path,"a")
+        file.write(f'{text} \n')
+    else:
+        file = open(file_path,"w")
+        file.write(f'{text}')
+
+    return True
+# print(os.environ['SALES_DATA_EMAIL_RECEPIENT'].split(","))
